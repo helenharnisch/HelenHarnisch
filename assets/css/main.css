@@ -1,0 +1,153 @@
+/* Estilos generales */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  height: 4em;
+  background-color: none;
+}
+
+.nav-item .nav-link {
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
+.nav-item .nav-link:hover {
+  color: grey;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
+.home, .projects, .contact {
+  background-color: #151515;
+  padding-top: 100px;
+  color: grey;
+}
+
+.about-me, .skills {
+  background-color: #030202;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.home, .about-me, .projects, .skills, .contact {
+    width: 100%;
+    min-height: 110vh;
+}
+
+/* Home secction */
+
+.home {
+    background-color: #f8c7c8;
+    background-image: url(../img/fondo.png);
+    background-position: center 30%;
+    background-size: cover;
+}
+
+.navbar-brand {
+  margin-left: 2em;
+}
+
+.logo {
+  width:130px;
+  height:130px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.frond h1 {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
+.frond p {
+  font-size: 4em;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.btn {
+  color: grey;
+  background-color: #1f1f1f;
+  border: 1px solid grey;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.btn a {
+  color: grey;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ff1b4e;
+  border: 1px solid #ff1b4e;
+  color: #fff;
+}
+
+.btn a:hover {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fa-arrow-circle-down {
+  margin: 0.7em;
+  color: #ff1b4e;
+  cursor: pointer;
+}
+
+.fa-arrow-circle-down:hover {
+  color: grey;
+}
+
+/* About me secction */
+
+.imgRedonda {
+    width:230px;
+    height:230px;
+    border-radius:150px;
+    border: 6px solid #fff;
+    margin: 1em;
+}
+
+.fa-envelope-square {
+  margin: 0.3em;
+  cursor: pointer;
+}
+
+/* Projects me secction */
+
+/* Skills secction */
+
+.icon {
+  font-size: 5em;
+}
+
+/* Contact secction */
+
+.iconContact {
+  color: grey;
+}
+
+.iconContact:hover {
+  color: #ff1b4e;
+}
+
+.fa-chevron-circle-up {
+  margin: 0.7em;
+  color: #ff1b4e;
+}
