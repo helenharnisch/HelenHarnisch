@@ -131,6 +131,15 @@
 
 /* Projects me secction */
 
+.work {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.work:hover {
+
+}
+
 /* Skills secction */
 
 .icon {
