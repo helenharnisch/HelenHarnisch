@@ -9,12 +9,26 @@
   background-color: #151515;
 }
 
+.fa-chevron-circle-down {
+  margin: 0.7em;
+  color: #ff1b4e;
+  cursor: pointer;
+}
+
+.fa-chevron-circle-down:hover {
+  color: grey;
+}
+
 .navbar-collapse {
   border: none;
   margin: 0;
   padding: 0;
   border-radius: 0;
   background-color: none;
+}
+
+.navbar-brand {
+  margin-left: 2em;
 }
 
 .navbar-toggler-icon {
@@ -40,16 +54,26 @@
   color: grey;
 }
 
-.about-me, .skills {
-  background-color: #030202;
+.skills {
+  background-color: #eaeaea;
   color: #fff;
   padding-top: 100px;
 }
 
-.home, .about-me, .projects, .contact {
+.about-me {
+  background-color: #eaeaea;
+}
+
+.home, .projects, .contact {
   width: 100%;
   min-height: 110vh;
   padding-top: 100px;
+}
+
+.about-me {
+  width: 100%;
+  min-height: 110vh;
+  padding-top: 70px;
 }
 
 .skills {
@@ -70,10 +94,6 @@
   background-size: cover;
 }
 
-.navbar-brand {
-  margin-left: 2em;
-}
-
 .logo {
   width:130px;
   height:130px;
@@ -81,23 +101,23 @@
   margin: 1em;
 }
 
-.frond h1 {
+.front h1 {
   font-size: 1.5em;
-  color: #fff;
-  font-weight: 400;
+  font-weight: lighter;
   letter-spacing: 0.2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.frond p {
-  font-size: 4em;
-  color: #fff;
+.front p {
+  font-size: 3.5em;
   font-weight: bold;
   letter-spacing: 0.2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
   color: grey;
-  background-color: #1f1f1f;
+  background-color: rgba(31, 31, 31, 0.51);
   border: 1px solid grey;
   font-weight: bold;
   margin: 1em;
@@ -120,32 +140,37 @@
   text-decoration: none;
 }
 
-.fa-arrow-circle-down {
-  margin: 0.7em;
-  color: #ff1b4e;
-  cursor: pointer;
-}
-
-.fa-arrow-circle-down:hover {
-  color: grey;
-}
-
 /* About me secction */
 
 .imgRedonda {
-    width:230px;
-    height:230px;
-    border-radius:150px;
-    border: 6px solid #fff;
-    margin: 1em;
+  width:250px;
+  height:250px;
+  border-radius:150px;
+  margin: 2em;
 }
 
-.fa-envelope-square {
-  margin: 0.3em;
-  cursor: pointer;
+.about-me h1 {
+  color: grey;
+}
+
+.about-me p {
+  color: #353535;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 11pt;
+  line-height: 16pt;
 }
 
 /* Projects secction */
+
+.work {
+  width: 50%;
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 .texto {
   position: absolute;
@@ -168,13 +193,6 @@
 
 .texto h3:hover {
   color: #ff00ff;
-}
-
-.work {
-  width: 50%;
-  position: relative;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 .work img {
@@ -213,37 +231,7 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 
 @media (max-width: 575.98px) {
-  .home h1 {
-    font-size: 1em;
-  }
 
-  .home p {
-      font-size: 1.3em;
-    }
-
-    .projects .work {
-        padding: 3em 2em;
-    }
-
-    .work img {
-      width: 300px;
-      height: auto;
-    }
-
-    .work {
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-    }
-
-    .work h1 {
-      display: none;
-    }
-}
-
-
-/* Small devices (landscape phones, 576px and up)*/
-
-@media (min-width: 576px) and (max-width: 767.98px) {
   .home h1 {
     font-size: 1em;
   }
@@ -257,7 +245,7 @@
   }
 
   .work img {
-    width: 300px;
+    width: 250px;
     height: auto;
   }
 
@@ -269,13 +257,18 @@
   .work h1 {
     display: none;
   }
+
+  .about-me, .projects, .skills .contact {
+    padding: 0;
+    margin: 0;
+  }
+
 }
 
+/* Small devices (landscape phones, 576px and up)*/
 
+@media (min-width: 576px) and (max-width: 767.98px) {
 
-/* Medium devices (tablets, 768px and up)*/
-
-@media (min-width: 768px) and (max-width: 991.98px) {
   .home h1 {
     font-size: 1em;
   }
@@ -289,7 +282,45 @@
   }
 
   .work img {
-    width: 300px;
+    width: 250px;
+    height: auto;
+  }
+
+  .work {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .work h1 {
+    display: none;
+  }
+
+  .home, .about-me, .projects, .skills .contact {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .home h1 {
+    font-size: 1em;
+  }
+
+  .home p {
+      font-size: 1.3em;
+    }
+
+  .projects .work {
+      padding: 3em 2em;
+  }
+
+  .work img {
+    width: 250px;
     height: auto;
   }
 
@@ -301,4 +332,10 @@
   .work h1 {
     display: none;
   }
+
+  .home, .about-me, .projects, .skills .contact {
+    padding: 0;
+    margin: 0;
+  }
+
 }
