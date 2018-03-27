@@ -208,3 +208,97 @@
   margin: 0;
   padding: 0;
 }
+
+/* Media Queries */
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+  .home h1 {
+    font-size: 1em;
+  }
+
+  .home p {
+      font-size: 1.3em;
+    }
+
+    .projects .work {
+        padding: 3em 2em;
+    }
+
+    .work img {
+      width: 300px;
+      height: auto;
+    }
+
+    .work {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .work h1 {
+      display: none;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home h1 {
+    font-size: 1em;
+  }
+
+  .home p {
+      font-size: 1.3em;
+    }
+
+  .projects .work {
+      padding: 3em 2em;
+  }
+
+  .work img {
+    width: 300px;
+    height: auto;
+  }
+
+  .work {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .work h1 {
+    display: none;
+  }
+}
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home h1 {
+    font-size: 1em;
+  }
+
+  .home p {
+      font-size: 1.3em;
+    }
+
+  .projects .work {
+      padding: 3em 2em;
+  }
+
+  .work img {
+    width: 300px;
+    height: auto;
+  }
+
+  .work {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .work h1 {
+    display: none;
+  }
+}
