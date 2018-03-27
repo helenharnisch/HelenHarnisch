@@ -5,13 +5,20 @@
   padding: 0;
 }
 
-.navbar {
+.down {
+  background-color: #151515;
+}
+
+.navbar-collapse {
   border: none;
   margin: 0;
   padding: 0;
   border-radius: 0;
-  height: 4em;
   background-color: none;
+}
+
+.navbar-toggler-icon {
+  color: red;
 }
 
 .nav-item .nav-link {
@@ -30,28 +37,37 @@
 
 .home, .projects, .contact {
   background-color: #151515;
-  padding-top: 100px;
   color: grey;
 }
 
 .about-me, .skills {
   background-color: #030202;
-  padding-top: 100px;
   color: #fff;
+  padding-top: 100px;
 }
 
-.home, .about-me, .projects, .skills, .contact {
-    width: 100%;
-    min-height: 110vh;
+.home, .about-me, .projects, .contact {
+  width: 100%;
+  min-height: 110vh;
+  padding-top: 100px;
+}
+
+.skills {
+  width: 100%;
+  min-height: 50vh;
+}
+
+.contact {
+  width: 100%;
+  min-height: 20vh;
 }
 
 /* Home secction */
 
 .home {
-    background-color: #f8c7c8;
-    background-image: url(../img/fondo.png);
-    background-position: center 30%;
-    background-size: cover;
+  background-image: url(../img/fondo.png);
+  background-position: center 30%;
+  background-size: cover;
 }
 
 .navbar-brand {
@@ -129,21 +145,48 @@
   cursor: pointer;
 }
 
-/* Projects me secction */
+/* Projects secction */
+
+.texto {
+  position: absolute;
+  bottom: 0;
+  padding: 100px 100px 50px 0px;
+}
+
+.texto h2 {
+  color: #ff00ff;
+}
+
+.texto h2:hover {
+  color: #fff;
+}
+
+.texto h3 {
+  color: #fff;
+  font-size: 2em;
+}
+
+.texto h3:hover {
+  color: #ff00ff;
+}
 
 .work {
+  width: 50%;
+  position: relative;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-.work:hover {
-
+.work img {
+  width: 450px;
+  height: auto;
 }
 
 /* Skills secction */
 
 .icon {
   font-size: 5em;
+  color: grey;
 }
 
 /* Contact secction */
