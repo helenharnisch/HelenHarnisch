@@ -27,10 +27,6 @@
   background-color: none;
 }
 
-.navbar-brand {
-  margin-left: 2em;
-}
-
 .navbar-toggler-icon {
   color: red;
 }
@@ -237,7 +233,7 @@
   }
 
   .home p {
-      font-size: 1.3em;
+      font-size: 1em;
     }
 
   .projects .work {
@@ -274,7 +270,7 @@
   }
 
   .home p {
-      font-size: 1.3em;
+      font-size: 1em;
     }
 
   .projects .work {
@@ -312,7 +308,7 @@
   }
 
   .home p {
-      font-size: 1.3em;
+      font-size: 1.8em;
     }
 
   .projects .work {
