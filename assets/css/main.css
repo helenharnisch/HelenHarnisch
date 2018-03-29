@@ -27,8 +27,8 @@
   background-color: none;
 }
 
-.navbar-toggler-icon {
-  color: red;
+.navbar-toggler {
+  border: 2px solid #ff1b4e;
 }
 
 .nav-item .nav-link {
@@ -50,14 +50,14 @@
   color: grey;
 }
 
+.about-me {
+  background-color: #eaeaea;
+}
+
 .skills {
   background-color: #eaeaea;
   color: #fff;
   padding-top: 100px;
-}
-
-.about-me {
-  background-color: #eaeaea;
 }
 
 .home, .projects, .contact {
@@ -236,6 +236,10 @@
       font-size: 1em;
     }
 
+  .about-me h1 {
+      padding-top: 0.1em;
+  }
+
   .projects .work {
       padding: 3em 2em;
   }
@@ -254,8 +258,8 @@
     display: none;
   }
 
-  .about-me, .projects, .skills .contact {
-    padding: 0;
+  .projects, .skills, .contact {
+    padding: 1em;
     margin: 0;
   }
 
@@ -273,6 +277,10 @@
       font-size: 1em;
     }
 
+  .about-me h1 {
+      padding-top: 0.1em;
+  }
+
   .projects .work {
       padding: 3em 2em;
   }
@@ -291,8 +299,8 @@
     display: none;
   }
 
-  .home, .about-me, .projects, .skills .contact {
-    padding: 0;
+  .home, .projects, .skills, .contact {
+    padding: 1em;
     margin: 0;
   }
 
@@ -310,6 +318,10 @@
   .home p {
       font-size: 1.8em;
     }
+
+  .about-me h1 {
+      padding-top: 0.1em;
+  }
 
   .projects .work {
       padding: 3em 2em;
@@ -329,7 +341,7 @@
     display: none;
   }
 
-  .home, .about-me, .projects, .skills .contact {
+  .home, .projects, .skills, .contact {
     padding: 0;
     margin: 0;
   }
