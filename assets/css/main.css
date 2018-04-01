@@ -96,7 +96,18 @@
 }
 
 .front p {
+  padding: 0;
+  margin: 0;
   font-size: 3.5em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.front .graphic {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
   font-weight: bold;
   letter-spacing: 0.2em;
   font-family: 'Open Sans', sans-serif;
@@ -192,6 +203,15 @@
 .icon {
   font-size: 5em;
   color: grey;
+  margin: 0;
+  padding: 0;
+}
+
+.skills img {
+  width: 1em;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 /* Contact secction */
@@ -223,7 +243,7 @@
     font-size: 1em;
   }
 
-  .home p {
+  .home p, .home .front .graphic {
       font-size: 1em;
     }
 
@@ -263,7 +283,7 @@
     font-size: 1em;
   }
 
-  .home p {
+  .home p, .home .front .graphic {
       font-size: 1em;
     }
 
@@ -303,7 +323,7 @@
     font-size: 1em;
   }
 
-  .home p {
+  .home p, .home .front .graphic {
       font-size: 1.8em;
     }
 
