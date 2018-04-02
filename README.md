@@ -1,7 +1,3 @@
 ## Maqueta
 
-<a href="https://imgur.com/PmhloIu"><img src="https://i.imgur.com/PmhloIu.jpg" title="source: imgur.com" /></a>
-
-## Boceto
-
-<a href="https://imgur.com/qM6asNu"><img src="https://i.imgur.com/qM6asNu.jpg" title="source: imgur.com" /></a>
+![web](https://user-images.githubusercontent.com/32281399/38179113-94b5a974-35f5-11e8-8076-db4fb945bc45.png)
